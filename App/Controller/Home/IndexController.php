@@ -5,9 +5,7 @@
 namespace Controller\Home;
 use Core\Controller;
 class IndexController extends Controller{
- public function Index(){
-    //加载一个用户数据模型
-    //$lists = $this->loadModel("user")->select();
-     $this->render("index/index");
- }
+        public function Index(){
+            $this->render("index/index");
+        }
 }
